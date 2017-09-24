@@ -1,3 +1,10 @@
+$(document).ready(function(){
+    $('.form-control').keypress(function(){
+        $('.alert').hide();
+    });
+
+
+});
 function Login(){
 
 
@@ -6,11 +13,13 @@ var pass = $("#pass").val();
 
 if(user == false)
 {
-alert("Se necesita el campo usuario")
+    $("#errorMsg").show();
+    $("#errorMsg").html('Ingrese un usuario');
 }
 else if(pass == false)
 {
-alert("Se necesita el campo password")
+    $("#errorMsg").show();
+    $("#errorMsg").html("Ingrese contraseña");
 }
 else 
 {
@@ -32,8 +41,8 @@ else
 		window.location.href ="index.php";		
 		}
 		else if($.trim(splitResp[0]) == 'fail') {
-			$("#msjloading").show();
-			$("#msjloading").html(splitResp[1]);
+            $("#errorMsg").show();
+			$("#errorMsg").html(splitResp[1]);
 		}
 		
 		},
