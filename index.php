@@ -38,7 +38,7 @@ $Tpl=mysql_fetch_assoc($sqlcita);
 <script type="text/javascript" src="js/sala.js"></script>
 <script type="text/javascript" src="js/comunidad.js"></script>
 <script type="text/javascript" src="js/configuracion.js"></script>
-<script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" src="js/menu.js?klj"></script>
 <script type="text/javascript" src="js/user.js"></script>
 <script type="text/javascript" src="js/soporte.js"></script>
 <script type="text/javascript" src="js/apariencia.js"></script>

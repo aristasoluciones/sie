@@ -49,6 +49,23 @@ $.ajax({
 		});
 }
 
+function reporte1(){
+$("#Respuestaajax").hide();
+$.ajax({
+			type :"POST",
+			url : "ajax/cabecera.php",
+			data: {"type":"reporte1"},
+			beforeSend: function(){
+				$("#loader_gif").show();
+			},
+			success: function (response){
+			console.log(response)
+			$("#contenido").html(response);	
+					
+			},
+		});
+}
+
 
 function mReporteCo(){
 $("#Respuestaajax").hide();

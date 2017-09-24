@@ -986,6 +986,44 @@ class Cabecera
 		return $data;
 	}
 	
+	
+	
+	public function reporte1($flt)
+	{
+	
+		$offset = ($this->pag - 1) * NUM_PAGINATION;
+	
+		$filtro ="";
+			
+		
+		
+		
+	 $sql ="
+		select 
+			*,
+			(select count(*) from people as p where p.seccionId  = s.seccionId and sexo = 'Femenino') as totalMujeres,
+			(select count(*) from people as p where p.seccionId  = s.seccionId and sexo = 'Masculino') as totalHombres,
+			(select count(*) from people as p where p.seccionId  = s.seccionId ) as total
+		from 
+			seccion as s
+		where
+		1  ";
+		$sqlcita = mysql_query($sql);
+		
+		$retArray = array();
+		while($rs=mysql_fetch_assoc($sqlcita))
+		{
+		$retArray[] = $rs;
+		}	
+		
+		foreach($retArray as $key=>$aux){
+			
+		}
+
+		
+		return $retArray;
+	}
+	
 }
 
 ?>
