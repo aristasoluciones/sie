@@ -1,0 +1,77 @@
+[12-May-2014 15:21:02 America/Mexico_City] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/conexion.php on line 14
+[12-May-2014 15:21:02 America/Mexico_City] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/medicals/public_html/medic-als/conexion.php on line 15
+[12-May-2014 15:21:02 America/Mexico_City] PHP Warning:  mysql_query(): Access denied for user 'medicals'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/classes/user.class.php on line 32
+[12-May-2014 15:21:02 America/Mexico_City] PHP Warning:  mysql_query(): A link to the server could not be established in /home/medicals/public_html/medic-als/classes/user.class.php on line 32
+[12-May-2014 15:21:02 America/Mexico_City] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/medicals/public_html/medic-als/classes/user.class.php on line 33
+[12-May-2014 15:21:02 America/Mexico_City] PHP Warning:  mysql_query(): Access denied for user 'medicals'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/classes/user.class.php on line 43
+[12-May-2014 15:21:02 America/Mexico_City] PHP Warning:  mysql_query(): A link to the server could not be established in /home/medicals/public_html/medic-als/classes/user.class.php on line 43
+[12-May-2014 15:21:02 America/Mexico_City] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/medicals/public_html/medic-als/classes/user.class.php on line 44
+[12-May-2014 15:21:10 America/Mexico_City] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/conexion.php on line 14
+[12-May-2014 15:21:10 America/Mexico_City] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/medicals/public_html/medic-als/conexion.php on line 15
+[12-May-2014 15:21:10 America/Mexico_City] PHP Warning:  mysql_query(): Access denied for user 'medicals'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/classes/user.class.php on line 32
+[12-May-2014 15:21:10 America/Mexico_City] PHP Warning:  mysql_query(): A link to the server could not be established in /home/medicals/public_html/medic-als/classes/user.class.php on line 32
+[12-May-2014 15:21:10 America/Mexico_City] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/medicals/public_html/medic-als/classes/user.class.php on line 33
+[12-May-2014 15:21:10 America/Mexico_City] PHP Warning:  mysql_query(): Access denied for user 'medicals'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/classes/user.class.php on line 43
+[12-May-2014 15:21:10 America/Mexico_City] PHP Warning:  mysql_query(): A link to the server could not be established in /home/medicals/public_html/medic-als/classes/user.class.php on line 43
+[12-May-2014 15:21:10 America/Mexico_City] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/medicals/public_html/medic-als/classes/user.class.php on line 44
+[12-May-2014 15:21:20 America/Mexico_City] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/conexion.php on line 14
+[12-May-2014 15:21:20 America/Mexico_City] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/medicals/public_html/medic-als/conexion.php on line 15
+[12-May-2014 15:21:20 America/Mexico_City] PHP Warning:  mysql_query(): Access denied for user 'medicals'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/classes/user.class.php on line 32
+[12-May-2014 15:21:20 America/Mexico_City] PHP Warning:  mysql_query(): A link to the server could not be established in /home/medicals/public_html/medic-als/classes/user.class.php on line 32
+[12-May-2014 15:21:20 America/Mexico_City] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/medicals/public_html/medic-als/classes/user.class.php on line 33
+[12-May-2014 15:21:20 America/Mexico_City] PHP Warning:  mysql_query(): Access denied for user 'medicals'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/classes/user.class.php on line 43
+[12-May-2014 15:21:20 America/Mexico_City] PHP Warning:  mysql_query(): A link to the server could not be established in /home/medicals/public_html/medic-als/classes/user.class.php on line 43
+[12-May-2014 15:21:20 America/Mexico_City] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/medicals/public_html/medic-als/classes/user.class.php on line 44
+[12-May-2014 15:21:22 America/Mexico_City] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/conexion.php on line 14
+[12-May-2014 15:21:22 America/Mexico_City] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/medicals/public_html/medic-als/conexion.php on line 15
+[12-May-2014 15:21:22 America/Mexico_City] PHP Warning:  mysql_query(): Access denied for user 'medicals'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/classes/user.class.php on line 32
+[12-May-2014 15:21:22 America/Mexico_City] PHP Warning:  mysql_query(): A link to the server could not be established in /home/medicals/public_html/medic-als/classes/user.class.php on line 32
+[12-May-2014 15:21:22 America/Mexico_City] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/medicals/public_html/medic-als/classes/user.class.php on line 33
+[12-May-2014 15:21:22 America/Mexico_City] PHP Warning:  mysql_query(): Access denied for user 'medicals'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/classes/user.class.php on line 43
+[12-May-2014 15:21:22 America/Mexico_City] PHP Warning:  mysql_query(): A link to the server could not be established in /home/medicals/public_html/medic-als/classes/user.class.php on line 43
+[12-May-2014 15:21:22 America/Mexico_City] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/medicals/public_html/medic-als/classes/user.class.php on line 44
+[12-May-2014 15:21:25 America/Mexico_City] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/conexion.php on line 14
+[12-May-2014 15:21:25 America/Mexico_City] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/medicals/public_html/medic-als/conexion.php on line 15
+[12-May-2014 15:21:25 America/Mexico_City] PHP Warning:  mysql_query(): Access denied for user 'medicals'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/classes/user.class.php on line 32
+[12-May-2014 15:21:25 America/Mexico_City] PHP Warning:  mysql_query(): A link to the server could not be established in /home/medicals/public_html/medic-als/classes/user.class.php on line 32
+[12-May-2014 15:21:25 America/Mexico_City] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/medicals/public_html/medic-als/classes/user.class.php on line 33
+[12-May-2014 15:21:25 America/Mexico_City] PHP Warning:  mysql_query(): Access denied for user 'medicals'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/classes/user.class.php on line 43
+[12-May-2014 15:21:25 America/Mexico_City] PHP Warning:  mysql_query(): A link to the server could not be established in /home/medicals/public_html/medic-als/classes/user.class.php on line 43
+[12-May-2014 15:21:25 America/Mexico_City] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/medicals/public_html/medic-als/classes/user.class.php on line 44
+[12-May-2014 15:23:37 America/Mexico_City] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/conexion.php on line 14
+[12-May-2014 15:23:37 America/Mexico_City] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/medicals/public_html/medic-als/conexion.php on line 15
+[12-May-2014 15:23:37 America/Mexico_City] PHP Warning:  mysql_query(): Access denied for user 'medicals'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/classes/user.class.php on line 32
+[12-May-2014 15:23:37 America/Mexico_City] PHP Warning:  mysql_query(): A link to the server could not be established in /home/medicals/public_html/medic-als/classes/user.class.php on line 32
+[12-May-2014 15:23:37 America/Mexico_City] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/medicals/public_html/medic-als/classes/user.class.php on line 33
+[12-May-2014 15:23:37 America/Mexico_City] PHP Warning:  mysql_query(): Access denied for user 'medicals'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/classes/user.class.php on line 43
+[12-May-2014 15:23:37 America/Mexico_City] PHP Warning:  mysql_query(): A link to the server could not be established in /home/medicals/public_html/medic-als/classes/user.class.php on line 43
+[12-May-2014 15:23:37 America/Mexico_City] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/medicals/public_html/medic-als/classes/user.class.php on line 44
+[12-May-2014 15:25:07 America/Mexico_City] PHP Warning:  mysql_connect(): Access denied for user 'medicals_root'@'localhost' (using password: YES) in /home/medicals/public_html/medic-als/conexion.php on line 14
+[12-May-2014 15:25:07 America/Mexico_City] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/medicals/public_html/medic-als/conexion.php on line 15
+[12-May-2014 15:25:07 America/Mexico_City] PHP Warning:  mysql_query(): Access denied for user 'medicals'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/classes/user.class.php on line 32
+[12-May-2014 15:25:07 America/Mexico_City] PHP Warning:  mysql_query(): A link to the server could not be established in /home/medicals/public_html/medic-als/classes/user.class.php on line 32
+[12-May-2014 15:25:07 America/Mexico_City] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/medicals/public_html/medic-als/classes/user.class.php on line 33
+[12-May-2014 15:25:07 America/Mexico_City] PHP Warning:  mysql_query(): Access denied for user 'medicals'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/classes/user.class.php on line 43
+[12-May-2014 15:25:07 America/Mexico_City] PHP Warning:  mysql_query(): A link to the server could not be established in /home/medicals/public_html/medic-als/classes/user.class.php on line 43
+[12-May-2014 15:25:07 America/Mexico_City] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/medicals/public_html/medic-als/classes/user.class.php on line 44
+[12-May-2014 15:25:13 America/Mexico_City] PHP Warning:  mysql_connect(): Access denied for user 'medicals_root'@'localhost' (using password: YES) in /home/medicals/public_html/medic-als/conexion.php on line 14
+[12-May-2014 15:25:13 America/Mexico_City] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/medicals/public_html/medic-als/conexion.php on line 15
+[12-May-2014 15:25:13 America/Mexico_City] PHP Warning:  mysql_query(): Access denied for user 'medicals'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/classes/user.class.php on line 32
+[12-May-2014 15:25:13 America/Mexico_City] PHP Warning:  mysql_query(): A link to the server could not be established in /home/medicals/public_html/medic-als/classes/user.class.php on line 32
+[12-May-2014 15:25:13 America/Mexico_City] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/medicals/public_html/medic-als/classes/user.class.php on line 33
+[12-May-2014 15:25:13 America/Mexico_City] PHP Warning:  mysql_query(): Access denied for user 'medicals'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/classes/user.class.php on line 43
+[12-May-2014 15:25:13 America/Mexico_City] PHP Warning:  mysql_query(): A link to the server could not be established in /home/medicals/public_html/medic-als/classes/user.class.php on line 43
+[12-May-2014 15:25:13 America/Mexico_City] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/medicals/public_html/medic-als/classes/user.class.php on line 44
+[12-May-2014 15:25:48 America/Mexico_City] PHP Warning:  mysql_connect(): Access denied for user 'medicals_root'@'localhost' (using password: YES) in /home/medicals/public_html/medic-als/conexion.php on line 14
+[12-May-2014 15:25:48 America/Mexico_City] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/medicals/public_html/medic-als/conexion.php on line 15
+[12-May-2014 15:25:48 America/Mexico_City] PHP Warning:  mysql_query(): Access denied for user 'medicals'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/classes/user.class.php on line 32
+[12-May-2014 15:25:48 America/Mexico_City] PHP Warning:  mysql_query(): A link to the server could not be established in /home/medicals/public_html/medic-als/classes/user.class.php on line 32
+[12-May-2014 15:25:48 America/Mexico_City] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/medicals/public_html/medic-als/classes/user.class.php on line 33
+[12-May-2014 15:25:48 America/Mexico_City] PHP Warning:  mysql_query(): Access denied for user 'medicals'@'localhost' (using password: NO) in /home/medicals/public_html/medic-als/classes/user.class.php on line 43
+[12-May-2014 15:25:48 America/Mexico_City] PHP Warning:  mysql_query(): A link to the server could not be established in /home/medicals/public_html/medic-als/classes/user.class.php on line 43
+[12-May-2014 15:25:48 America/Mexico_City] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/medicals/public_html/medic-als/classes/user.class.php on line 44
+[06-Jul-2014 13:01:27 America/Mexico_City] PHP Fatal error:  Call to undefined method Cita::SearchMore() in /home/medicals/public_html/medic-als/ajax/cita.php on line 593
+[06-Jul-2014 13:01:52 America/Mexico_City] PHP Fatal error:  Call to undefined method Cita::SearchMore() in /home/medicals/public_html/medic-als/ajax/cita.php on line 593
+[06-Jul-2014 13:02:30 America/Mexico_City] PHP Warning:  include(../templates/tools.php): failed to open stream: No such file or directory in /home/medicals/public_html/medic-als/ajax/cita.php on line 612
+[06-Jul-2014 13:02:30 America/Mexico_City] PHP Warning:  include(../templates/tools.php): failed to open stream: No such file or directory in /home/medicals/public_html/medic-als/ajax/cita.php on line 612
+[06-Jul-2014 13:02:30 America/Mexico_City] PHP Warning:  include(): Failed opening '../templates/tools.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/medicals/public_html/medic-als/ajax/cita.php on line 612

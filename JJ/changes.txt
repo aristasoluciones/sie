@@ -1,0 +1,9 @@
+cordinador 1
+promotor 2
+promovido 3
+
+
+- poner combo nivel al capturar en comunidd y cabecra obligatorio
+
+
+cargar data base de sie 

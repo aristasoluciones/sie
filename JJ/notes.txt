@@ -1,0 +1,17 @@
+- actualizar el usuario con el id del nuevo municipio
+- modifiacar el php.ini max_execution_time = 300000 
+- probar de forma general
+- resetar partidos
+- crear un db nueva y modificar la conexion
+- copiar carpeta al principal sistema
+- borrar carpeta
+- poener la clave del muncipio en cada usuario y verifcar donde mas afecta 
+- instalas chrome
+- checar el numero secciones si son correctas
+- indexar tablas
+- borrar esta carpeta solo en el sistema se que instalo aqui dejarlo 
+
+en mi colocal cambiar el nombre de la db db copa
+
+
+- MARIA TERESA MÉNDEZ FLORES
