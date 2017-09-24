@@ -46,6 +46,7 @@ $Tpl=mysql_fetch_assoc($sqlcita);
 <link rel="stylesheet" href="<?php echo $Tpl["css"]?>" type="text/css" media="all" />
 <!--Css nuevos-->
 <link rel="stylesheet" href="css/miestilo.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/menu.css?dasd" type="text/css" media="all" />
 <link rel="stylesheet" href="css/tables.css" type="text/css" media="all" />
 <style type="text/css">
 			/*demo page css*/
