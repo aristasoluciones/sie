@@ -67,6 +67,45 @@ $.ajax({
 }
 
 
+
+
+function reporte2(){
+$("#Respuestaajax").hide();
+$.ajax({
+			type :"POST",
+			url : "ajax/cabecera.php",
+			data: {"type":"reporte2"},
+			beforeSend: function(){
+				$("#loader_gif").show();
+			},
+			success: function (response){
+			console.log(response)
+			$("#contenido").html(response);	
+					
+			},
+		});
+}
+
+
+
+function reporte3(){
+$("#Respuestaajax").hide();
+$.ajax({
+			type :"POST",
+			url : "ajax/cabecera.php",
+			data: {"type":"reporte3"},
+			beforeSend: function(){
+				$("#loader_gif").show();
+			},
+			success: function (response){
+			console.log(response)
+			$("#contenido").html(response);	
+					
+			},
+		});
+}
+
+
 function mReporteCo(){
 $("#Respuestaajax").hide();
 $.ajax({

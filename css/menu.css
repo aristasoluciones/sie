@@ -3,12 +3,12 @@
 
 #menubloque {
 
-width: 500px;
-height: 35px;
+
+height: 55px;
 font-size: 13px;
 color: #ffffff;
 border: 0px solid #424242;
-padding: 0px auto 0;
+padding: 10px auto 0;
 font-weight: bold;
 margin: 1px auto 0;
 font-family:'Trebuchet MS',Arial,Verdana,Sans-Serif;
@@ -44,11 +44,11 @@ margin: 0;
 padding: 9px 15px 8px;
 }
 #menudesplegable li li a:link, #menudesplegable li li a, #menudesplegable li li a:visited {
-color: #FFF;
+color: gray;
 font-weight: normal;
 text-transform: none;
-background: #bbbbbb;
-width: 150px;
+background: white;
+width: 199px;
 float: none;
 margin: 0;
 padding: 7px 10px;

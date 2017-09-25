@@ -133,6 +133,42 @@ switch ($_POST["type"])
 	
 	break;
 	
+	
+	case "reporte2":
+		
+
+		$_SESSION["fltcabecera"]["cabezaId"]= "";
+		$lstSeccion = $cabecera->LsSeccion();
+		$cabecera->setPag(1);
+		$lstPeople = $cabecera->reporte2($_SESSION["fltcabecera"]);
+		@$TotalPeople = $cabecera->CountFltro($_SESSION["fltcabecera"]);
+		$items = $TotalPeople/NUM_PAGINATION;
+		$pagInicio = 1;
+		$pagEnd = NUM_PAGINATION;
+		// include("../templates/flt-cabecera.php"); 
+		include("../templates/lst-reporte2.php"); 
+		
+	
+	break;
+	
+	
+	case "reporte3":
+		
+
+		$_SESSION["fltcabecera"]["cabezaId"]= "";
+		$lstSeccion = $cabecera->LsSeccion();
+		$cabecera->setPag(1);
+		$lstPeople = $cabecera->reporte3($_SESSION["fltcabecera"]);
+		@$TotalPeople = $cabecera->CountFltro($_SESSION["fltcabecera"]);
+		$items = $TotalPeople/NUM_PAGINATION;
+		$pagInicio = 1;
+		$pagEnd = NUM_PAGINATION;
+		// include("../templates/flt-cabecera.php"); 
+		include("../templates/lst-reporte3.php"); 
+		
+	
+	break;
+	
 	case "DeletePeople":
 	
 		if($cabecera->Delete($_POST["id"]))

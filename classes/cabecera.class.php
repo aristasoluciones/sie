@@ -1024,6 +1024,81 @@ class Cabecera
 		return $retArray;
 	}
 	
+	
+	public function reporte2($flt)
+	{
+	
+		$offset = ($this->pag - 1) * NUM_PAGINATION;
+	
+		$filtro ="";
+			
+		
+		
+		
+	 $sql ="
+		select 
+			*,
+			(select count(*) from people as p where p.seccionId  = s.seccionId and voto = 'si') as totalMujeres,
+			(select count(*) from people as p where p.seccionId  = s.seccionId and voto = 'no') as totalHombres,
+			(select count(*) from people as p where p.seccionId  = s.seccionId ) as total
+		from 
+			seccion as s
+		where
+		1  ";
+		$sqlcita = mysql_query($sql);
+		
+		$retArray = array();
+		while($rs=mysql_fetch_assoc($sqlcita))
+		{
+		$retArray[] = $rs;
+		}	
+		
+		foreach($retArray as $key=>$aux){
+			
+		}
+
+		
+		return $retArray;
+	}
+	
+	
+	public function reporte3($flt)
+	{
+	
+		$offset = ($this->pag - 1) * NUM_PAGINATION;
+	
+		$filtro ="";
+			
+		
+		
+		
+	 $sql ="
+		select 
+			*,
+			(select count(*) from people as p where p.seccionId  = s.seccionId and fnacimiento = '0000-00-00') as fuera,
+			(select count(*) from people as p where p.seccionId  = s.seccionId and fnacimiento <= '1999-01-01' and fnacimiento >= '1993-01-01') as rango1,
+			(select count(*) from people as p where p.seccionId  = s.seccionId and fnacimiento <= '1992-01-01' and fnacimiento >= '1958-01-01') as rango2,
+			(select count(*) from people as p where p.seccionId  = s.seccionId and fnacimiento <= '1957-01-01' and fnacimiento <> '0000-00-00') as rango3,
+			(select count(*) from people as p where p.seccionId  = s.seccionId ) as total
+		from 
+			seccion as s
+		where
+		1  ";
+		$sqlcita = mysql_query($sql);
+		
+		$retArray = array();
+		while($rs=mysql_fetch_assoc($sqlcita))
+		{
+		$retArray[] = $rs;
+		}	
+		
+		foreach($retArray as $key=>$aux){
+			
+		}
+
+		
+		return $retArray;
+	}
 }
 
 ?>
