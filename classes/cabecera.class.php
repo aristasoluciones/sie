@@ -63,7 +63,9 @@ class Cabecera
 			`cabezared`,
 			`facebook`,
 			`twitter`,
-			`municipioId`
+			`municipioId`,
+			`x`,
+			`y`
 			)
 			VALUES (
 			NULL ,  
@@ -82,7 +84,9 @@ class Cabecera
 			'".$_POST["nivel"]."',
 			'".$_POST["face"]."',
 			'".$_POST["twitter"]."',
-			'".$_SESSION["municipiolog"]."'
+			'".$_SESSION["municipiolog"]."',
+			'".$_POST["cx"]."',
+			'".$_POST["cy"]."'
 			);";
 		}
 		else
@@ -107,7 +111,9 @@ class Cabecera
 			`facebook`,
 			`twitter`,
 			`municipioId`,
-			`tipo`
+			`tipo`,
+			`x`,
+			`y`
 			)
 			VALUES (
 			NULL ,  
@@ -127,7 +133,9 @@ class Cabecera
 			'".$_POST["face"]."',
 			'".$_POST["twitter"]."',
 			'".$_SESSION["municipiolog"]."',	
-			'".$_POST["tipo"]."'	
+			'".$_POST["tipo"]."',
+			'".$_POST["cx"]."',
+			'".$_POST["cy"]."'			
 			);";
 		}	
 				
@@ -170,7 +178,9 @@ class Cabecera
 			`facebook`,
 			`twitter`,
 			`municipioId`,
-			`tipo`
+			`tipo`,
+			`x`,
+			`y`
 			)
 			VALUES (
 			NULL ,  
@@ -189,7 +199,9 @@ class Cabecera
 			'".$_POST["face"]."',
 			'".$_POST["twitter"]."',	
 			'".$_SESSION["municipiolog"]."',	
-			'".$_POST["tipo"]."'	
+			'".$_POST["tipo"]."',
+			'".$_POST["cx"]."',
+			'".$_POST["cy"]."'			
 			);";
 			
 		}
@@ -215,7 +227,9 @@ class Cabecera
 			`cabezared`,
 			`facebook`,
 			`twitter`,
-			`municipioId`
+			`municipioId`,
+			`x`,
+			`y`
 			)
 			VALUES (
 			NULL ,  
@@ -233,7 +247,9 @@ class Cabecera
 			'".$_POST["nivel"]."',
 			'".$_POST["face"]."',
 			'".$_POST["twitter"]."',
-			'".$_SESSION["municipiolog"]."'				
+			'".$_SESSION["municipiolog"]."',
+			'".$_POST["cx"]."',
+			'".$_POST["cy"]."'				
 			);";
 		}
 		
@@ -1100,6 +1116,35 @@ class Cabecera
 			
 		}
 
+		
+		return $retArray;
+	}
+	
+	public function buscaCoordenadas($seccionId)
+	{
+		
+		
+		$sql ="select * from seccion where seccionId = '".$seccionId."'";
+
+		$row=mysql_query($sql);
+		$data=mysql_fetch_assoc($row);
+		
+		return $data;
+	}
+	
+	public function listaPeople()
+	{
+		
+		
+		$sql ="select * from people where x <> '' and y <> ''";
+
+		$sqlcita = mysql_query($sql);
+		
+		$retArray = array();
+		while($rs=mysql_fetch_assoc($sqlcita))
+		{
+		$retArray[] = $rs;
+		}	
 		
 		return $retArray;
 	}

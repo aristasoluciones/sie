@@ -799,3 +799,31 @@ function Upexcel(){
 	$("#frmUpexcel").submit();
 
 }
+
+
+
+function buscaCoordenadas(){
+;
+
+seccionId = $("#seccion").val();
+
+
+$.ajax({
+			type :"POST",
+			url : "ajax/cabecera.php",
+			data: {"type":"buscaCoordenadas",seccionId:seccionId},
+			beforeSend: function(){
+				$("#loader_gif").show();
+			},
+			success: function (response){
+				$("#loader_gif").hide();
+				console.log(response)
+					 var splitResp = response.split("[#]");
+					if($.trim(splitResp[0]) == "ok"){
+						$("#cx").val(splitResp[1]);
+						$("#cy").val(splitResp[2]);
+					}
+					
+			},
+		});
+}

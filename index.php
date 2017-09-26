@@ -34,7 +34,7 @@ $Tpl=mysql_fetch_assoc($sqlcita);
 
 <!--Lib. js nuevas-->
 <script type="text/javascript" src="js/general.js"></script>
-<script type="text/javascript" src="js/cabecera.js"></script>
+<script type="text/javascript" src="js/cabecera.js?<?php echo rand()?>"></script>
 <script type="text/javascript" src="js/master.js"></script>
 <script type="text/javascript" src="js/sala.js"></script>
 <script type="text/javascript" src="js/comunidad.js"></script>

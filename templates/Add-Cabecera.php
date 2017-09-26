@@ -75,7 +75,7 @@ Agregar Cabecera
 	<font face="verdana" size=1 color="#e94835 ">*</font>
 	Secci&oacuten:<br>
 	<div class="marcotxt">
-		<input type="text" name="seccion" id="seccion" class="txtpaciente">
+		<input type="text" name="seccion" id="seccion" class="txtpaciente" onblur="buscaCoordenadas()">
 	</div>
 	</td>
 </tr>
@@ -147,10 +147,16 @@ Agregar Cabecera
 		</div>
 	</td>
 	<td>
-
+		Coordenada X
+		<div class="marcotxt">
+			<input type="text" name="cx" id="cx" class="txtpaciente">
+		</div>
 	</td>
 	<td>
-
+	Coordenada Y
+		<div class="marcotxt">
+			<input type="text" name="cy" id="cy" class="txtpaciente">
+		</div>
 	</td>
 </tr>
 <tr>
