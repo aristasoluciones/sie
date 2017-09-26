@@ -1,0 +1,448 @@
+/*
+Author: XpeedStudio
+Author URI: https://themeforest.net/user/xpeedstudio
+*/
+/*
+//style-01
+@brand-primary:         #2E525E;
+@brand-highlight:       #029AA2;
+@brand-dark:       		#0C191C;
+*/
+/*
+//style-02
+@brand-primary:         #007DBC;
+@brand-highlight:       #0FAEFF;
+@brand-dark:       		#1e1e1e;
+*/
+/*
+//style-03
+@brand-primary:         #FBBF3B;
+@brand-highlight:       #FDDD3F;
+@brand-dark:       		#333333;
+*/
+/*
+//style-04
+@brand-primary:         #FBBF3B;
+@brand-highlight:       #FDDD3F;
+@brand-dark:       		#333333;
+*/
+/*
+//style-05
+@brand-primary:         #333333;
+@brand-highlight:       #029AA2;
+@brand-dark:       		#191919;
+*/
+/*
+//style-10
+@brand-primary:         #3770CC;
+@brand-highlight:       #FFC83F;
+@brand-dark:       		#222326;
+*/
+/*
+//style-09
+@brand-primary:         #2A2B33;
+@brand-highlight:       #000000;
+@brand-dark:       		#222326;
+*/
+/*
+//style-07
+@brand-primary:         #417DA8;
+@brand-highlight:       #295070;
+@brand-dark:       		#27282D;
+*/
+@media (max-width: 991px) {
+    .h1,
+    h1 {
+        font-size: 45px;
+    }
+    .h2,
+    h2 {
+        font-size: 26px;
+    }
+    .sm-text-center {
+        text-align: center;
+    }
+    .sm-text-left {
+        text-align: left;
+    }
+    .sm-text-right {
+        text-align: right;
+    }
+    .pull-left,
+    .pull-right {
+        float: none!important;
+    }
+    .carousel.carousel-fade .carousel-caption h1 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .section-title h2,
+    .section-title-2 h2,
+    .section-title-4 h2,
+    .section-title-5 h2 {
+        font-size: 45px;
+    }
+    .section-title-4 .sub-title {
+        font-size: 16px;
+    }
+    .tersus-block-testimonial-3 h2 {
+        font-size: 25px;
+    }
+    .col-md-5,
+    .col-md-7 {
+        width: 100%;
+    }
+    .tersus-block-about-3 .caption-container h2 {
+        font-size: 30px;
+    }
+    .nav-tabs-style-1 .nav-tabs > li {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .nav-tabs-style-1 .nav-tabs > li a {
+        margin-right: 0;
+    }
+    .social-icons-style-1 .social-icons li {
+        margin-bottom: 15px;
+    }
+    .tersus-block-about-4 .about-highlight-img {
+        z-index: -1;
+    }
+    .extra-story-spacing {
+        display: none;
+    }
+    .icon-box.icon-box-onhover p {
+        position: relative;
+        opacity: 1;
+        visibility: visible;
+    }
+    .tersus-block-projects-1 .panel-heading h3 {
+        font-size: 40px;
+    }
+    .carousel.carousel-fade.carousel-tab .carousel-indicators li {
+        font-style: 13px;
+    }
+    .tersus-block-projects-1 .panel-heading a {
+        padding: 20px 30px;
+    }
+    .tersus-block-projects-1 .panel-heading .thumb {
+        margin-right: 0;
+    }
+    .tersus-block-contact-1 .section-title {
+        text-align: center;
+    }
+    .tersus-block-contact-1 .contact-details,
+    .tersus-block-contact-1 .company-name {
+        text-align: center;
+        margin-left: 0;
+    }
+    .tersus-block-contact-1 .company-name {
+        margin-bottom: 15px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .tersus-block-team-2 .team-content {
+        margin-left: 0!important;
+        position: relative!important;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .tersus-block-team-2 .team-member .team-social {
+        text-align: center;
+    }
+    .tersus-block-team-2 .carousel-indicators {
+        bottom: 0;
+        top: inherit;
+        text-align: center;
+        width: 100%;
+    }
+    .tersus-block-team-2 .carousel-inner {
+        padding-bottom: 60px;
+    }
+    .tersus-block-pricing-1 .pricing-table.pricing-highlight {
+        margin-left: 0;
+        margin-right: 0;
+        position: relative;
+        top: inherit;
+    }
+    .tersus-block-pricing-1 .pricing-table.pricing-highlight .pricing-header {
+        margin-top: 0px;
+    }
+    .tersus-block-pricing-1 .pricing-table.pricing-highlight span {
+        background-color: #3fd6c1;
+        padding: 20px 15px;
+    }
+    .tersus-block-pricing-1 .pricing-table.pricing-highlight .pricing-footer {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .grid-item,
+    .grid-item-width2 {
+        width: 100%;
+    }
+    .tersus-block-featured-3.featured-details {
+        margin: 0;
+    }
+    .tersus-block-featured-3.featured-details .featured-img {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    .tersus-block-portfolio-8 .portfolio-grid {
+        margin-left: -5px;
+        margin-top: 30px;
+    }
+    .tersus-block-portfolio-8 .title {
+        margin-bottom: 30px;
+    }
+    .tersus-block-portfolio-8 .portfolio-filter {
+        float: none;
+        width: 100%;
+    }
+    .tersus-block-portfolio-8 .portfolio-filter:after {
+        display: none;
+    }
+    .tersus-block-intro-6 h1 {
+        font-size: 40px;
+        line-height: 1.4;
+    }
+    .window-box {
+        display: none;
+    }
+    .tersus-block-clients-9 .client-box {
+        border-color: transparent!important;
+    }
+    .tersus-block-team-7 .team-member .team-content {
+        background-color: #27282d;
+        padding: 15px 10px;
+        width: 100%;
+    }
+    .tersus-block-team-7 .team-member .team-photo {
+        width: 100%;
+        margin: 0!important;
+    }
+    .tersus-block-team-7 .team-member .team-social {
+        width: 100%;
+    }
+    .breadcrumb-default {
+        margin-top: 0px!important;
+    }
+    .featured-content .single-details .extra-info,
+    .single-details .fa {
+        margin: 0!important;
+        padding: 5px 0;
+    }
+    #subscribe-form input {
+        margin-bottom: 0!important;
+    }
+    .section-divider .box-heading2,
+    .section-divider .box-heading2 .highlight,
+    .section-divider .box-heading3,
+    .section-divider .box-heading3 .highlight {
+        font-size: 22px!important;
+        letter-spacing: 5px!important;
+        border-width: 5px!important;
+    }
+    .social-icons-style-4 {
+        display: inline-block;
+    }
+    .tersus-block-intro-8 .carousel-caption h2 {
+        font-size: 30px !important;
+    }
+    .tersus-style-08 html {
+        font-size: 90%;
+    }
+    .sp-caption-container {
+        left: 25%;
+    }
+    .main_home .sp-caption-container p {
+        font-size: 2.5rem;
+    }
+    .single_showcase .single_showcase_content_right {
+        padding: 4.06rem 4rem;
+    }
+    .main_imagination .single_imagination_Left h3 {
+        letter-spacing: 1px;
+        line-height: 4rem;
+        font-size: 2rem;
+    }
+    .main_imagination .single_imagination_right .imagination_icon {
+        padding-left: 30%;
+    }
+    .main_imagination .single_imagination_right i {
+        font-size: 3rem;
+        width: 110px;
+        height: 110px;
+        line-height: 110px;
+    }
+    .scrollup a i {
+        padding: 9px 2px;
+    }
+}
+@media (max-width: 767px) {
+    .xs-text-center {
+        text-align: center;
+    }
+    .tersus-style-10 .background-image {
+        position: relative;
+        left: 0;
+        top: 0;
+        height: 300px!important;
+        width: 100%;
+    }
+    .tersus-block-contact .fitto-right {
+        display: none;
+    }
+    .tersus-block-contact .section-title-normal,
+    .tersus-block-contact .btn {
+        border-color: #999!important;
+        color: #444!important;
+    }
+}
+@media (min-width: 992px) {
+    .navbar-nav > li {
+        float: left;
+        margin-left: 2px;
+    }
+    .col-md-2-10 {
+        width: 20%;
+    }
+    .col-md-5 {
+        width: 41.666665%;
+    }
+    .col-md-7 {
+        width: 58.333335%;
+    }
+    .tersus-block-subscribe-1 .form-control {
+        margin-right: 20px;
+        margin-bottom: 0;
+        width: 660px;
+    }
+    .tersus-block-services-7 {
+        padding-top: 0;
+    }
+}
+@media (max-width: 1199px) {
+    .icon-box.icon-box-shade .icon {
+        margin-top: 30px;
+        padding: 30px 0;
+        height: auto;
+    }
+    .icon-box.icon-box-shade .icon:before {
+        position: relative;
+        bottom: initial;
+    }
+    .tersus-style-08 body {
+        font-size: 1rem;
+    }
+    .tersus-style-08 .main_imagination .single_imagination_Left {
+        padding: 40px 0;
+    }
+    .tersus-style-08 .main_imagination .single_imagination_Left h3{
+        font-size: 2rem;
+        line-height: 2.5rem
+    }
+}
+@media (max-width: 560px) {
+    .carousel.carousel-fade .carousel-caption h1 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+    .tersus-style-08 html {
+        font-size: 80%;
+    }
+    .main_home .sp-caption-container p {
+        font-size: 1rem;
+    }
+    .tersus-style-08 .whitedivider1 {
+        margin: 10px auto;
+    }
+    .tersus-style-08 h2 {
+        font-size: 1rem;
+    }
+    .main_showcase .head_title {
+        width: 60%;
+    }
+    .tersus-style-08 h3 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .sp-caption-container {
+        left: 21%;
+        top: 40%;
+    }
+    .main_home .sp-caption-container a {
+        margin-top: 20%;
+    }
+    .main_contact .single_contact_left {
+        margin-bottom: 40px;
+    }
+    .tersus-style-08 .single_showcase .single_showcase_content_right {
+        padding: 60px 30px;
+    }
+    .copyright_text {
+        text-align: center;
+    }
+    .main_footer .flowus {
+        text-align: center;
+    }
+    .scrollup a i {
+        padding: 10px 2px;
+    }
+
+    .tersus-style-08 .main_imagination .single_imagination_Left h3 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-align: center
+    }
+    .tersus-style-08 .main_imagination .single_imagination_right {
+        margin-top: 10px;
+    }
+    .tersus-style-08 .main_imagination .single_imagination_right .imagination_icon, 
+    .tersus-style-08 .main_imagination .single_imagination_right .imagination_text{
+        padding-left:0px;
+    }
+    .tersus-style-08 .main_imagination .single_imagination_right .imagination_text h6{
+        text-align: center;
+    }
+    .innovation .main_innovation, 
+    .tersus-style-08 .presenting .main_presenting{
+        width: 100%
+    }
+    .timeline-centered .timeline-entry.left-aligned .timeline-entry-inner .timeline-label {
+        margin-right: 0px;
+    }
+    .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
+        margin-left: 0px;
+    }
+    .tersus-style-08 .main_mix_menu ul li {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+    .single_mixiportfolio_text h6 {
+        clear: both;
+        padding-top: 20px;
+    }
+}
+/* Landscape phones and smaller */
+@media (max-width: 479px) {
+    .tersus-style-08 html {
+        font-size: 65%;
+    }
+    .main_imagination .single_imagination_right i {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+    }
+}
+@media (max-width: 320px) {
+    html {
+        font-size: 60.5%;
+    }
+}

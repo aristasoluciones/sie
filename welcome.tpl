@@ -104,7 +104,9 @@
 		</div>
        <div id="navigation-1" class="navbar navbar-fixed-top navbar-uppercase navbar-inverse navbar-transparent tersus-navigation-2" >
 					<div style="float:right" style="background:white"><button class="btnIniciar" onclick=" location.href='{$WEB_ROOT}/login' ">Iniciar Sesión</button>&nbsp;
-					</div>					
+					</div>
+					<div style="float:right" style="background:white"><button class="bb" onclick=" location.href='{$WEB_ROOT}/registro' ">Crear Cuenta</button>
+					</div>
 			<div style="clear: both"></div>
 			<div class="container" >
 				<div class="navbar-header" style="width:60%; ">
@@ -113,14 +115,15 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a href="#intro"><img src="assets_welcome/images/.png?sswerwesdfsdfsdf332342334rwers" alt="" style="width:100%"/></a>
+					<a href="#intro"><img src="assets_welcome/images/logo.png?sswerwesdfsdfsdf332342334rwers" alt="tersus" style="width:100%"/></a>
 				</div>
 				<div id="navigation-1-collapse" class="navbar-offcanvas offcanvas navbar-right canvas-push" >
 					<!--<a ><img src="assets_welcome/img/logo.png?sasfdfdasd" alt="tersus" /></a>-->
 					<a  class="navmenu-brand scroll-to" href="#"  onClick="CloseX()">|X CERRAR|</a>
 					<ul class="nav navbar-nav">
 						<li><a href="#home">Inicio</a></li>
-						<li><a href="#showcase">SIE</a></li>						
+						<li><a href="#showcase">RPPyC</a></li>
+						<li><a href="#tramites">Trámites</a></li>
 						<li><a href="#contact">Contacto</a></li>
 					</ul>
 				</div><!--/.nav-collapse -->
@@ -139,7 +142,7 @@
                                     <div class="sp-slides">
                                         <div class="sp-slide">
                                             <div class="slide_img">
-                                                <img class="sp-image" src="assets_welcome/images/slider/09.jpg" alt="tersus"/>
+                                                <img class="sp-image" src="assets_welcome/images/slider/01.jpg" alt="tersus"/>
                                                 <div class="home-overlay"></div>
                                             </div>
                                             <div class="sp-caption text-center" >
@@ -151,7 +154,7 @@
 											<br>
 											<br>
 											<br>
-                                               <font style="color:white; font-size:50px">SISTEMA INTERNO ELECTORAL</font>
+                                               <font style="color:white; font-size:50px">REGISTRO PÚBLICO DE LA PROPIEDAD Y DEL COMERCIO DEL ESTADO DE CHIAPAS</font>
                                                 <div class="whitedivider1"></div><!--
                                                 <span class="textwhite">IT'S NOT JUST A TEMPLATE, IT'S A BUSINESS PRESENTATION</span>-->
                                             </div>
@@ -159,7 +162,7 @@
 
                                         <div class="sp-slide" >
                                             <div class="slide_img">
-                                                <img class="sp-image" src="assets_welcome/images/slider/05.jpg" alt="tersus" />
+                                                <img class="sp-image" src="assets_welcome/images/slider/02.jpg" alt="tersus" />
                                        
                                             </div>
                                             <div class="sp-caption text-center">
@@ -169,45 +172,55 @@
 											<br>
 											<br>
 											<br>
-                                                <h3 class="textwhite">IMPACTOS DEL SISTEMAS</h3>
+                                                <h3 class="textwhite">DELEGACIONES</h3>
 												
 												<table align="center">
 													<tr>
-														<td><font color="white">Organización</font></td>														
+														<td><font color="white">Acapetahua</font></td>
+														<td><font color="white">Pichucalco </font></td>
 													</tr>
 													<tr>
-														<td><font color="white">Control</font></td>														
+														<td><font color="white">Bochil</font></td>
+														<td><font color="white">Salto de Agua </font></td>
 													</tr>
 													<tr>
-														<td><font color="white">Estrategia</font></td>														
+														<td><font color="white">Catazajá</font></td>
+														<td><font color="white">San Cristóbal de Las Casas </font></td>
 													</tr>
 													<tr>
-														<td><font color="white">Seguimiento</font></td>														
+														<td><font color="white">Comitán</font></td>
+														<td><font color="white">Tuxtla Gutiérrez </font></td>
 													</tr>
 													<tr>
-														<td><font color="white">Información en tiempo real</font></td>														
+														<td><font color="white">Cintalapa </font></td>
+														<td><font color="white">Tapachula </font></td>
 													</tr>
 													<tr>
-														<td><font color="white">No duplicar IFE</font></td>														
+														<td><font color="white">Chiapa de Corzo </font></td>
+														<td><font color="white">Tonalá </font></td>
 													</tr>
 													<tr>
-														<td><font color="white">No duplicar Apoyos</font></td>													
-													</tr>													
+														<td><font color="white">Copainalá </font></td>
+														<td><font color="white">Venustiano Carranza </font></td>
+													</tr>
+													<tr>
+														<td><font color="white">Huixtla </font></td>
+														<td><font color="white">Villaflores </font></td>
+													</tr>
+													<tr>
+														<td><font color="white">Motozintla </font></td>
+														<td><font color="white">Yajalón</font></td>
+													</tr>
+													<tr>
+														<td><font color="white">Ocosingo </font></td>
+														<td><font color="white"></font></td>
+													</tr>
 												</table>
 
 
     
                                             </div>
                                         </div>
-										 <div class="sp-slide" >
-                                            <div class="slide_img">
-                                                <img class="sp-image" src="assets_welcome/images/slider/07.jpg" alt="tersus" />
-                                       
-                                            </div>
-                                            <div class="sp-caption text-center">											
-                                                <h2 class="textwhite">RED DE TRABAJO</h2>    
-                                            </div>
-                                        </di>
 										<!--
                                         <div class="sp-slide">
                                             <div class="slide_img">
@@ -241,13 +254,15 @@
                         <div class="single_showcase showcase1bg margin-bottom-60">
                             <div class="col-sm-6 col-sm-push-6 no-padding wow fadeInRight" data-wow-duration="1000ms">
                                 <div class="single_showcase_content_right textwhite">
-                                    <h2>SISTEMA INTERNO ELECTORAL</h2>
+                                    <h4>REGISTRO PUBLICO DE LA PROPIEDAD Y DEL COMERCIO</h4>
                                     <h6 class="margin-top-40"></h6>
 
                                     <p style="text-align:justify">
-									Los expedientes están relacionados hacia un ciudadano de cualquier sección.
-Documentación digital que será almacenada de forma local y estará disponible para cualquier consulta, es de gran utilidad pues automatiza la información en una única base de datos central.
+									Es la Institución destinada a hacer constar, por medio de la inscripción, los títulos por los cuales se adquiere, transmite, modifica, grava o extingue el dominio, la posesión y los demás derechos reales sobre inmuebles; todos los documentos relativos a actas o contratos susceptibles de tener alguna repercusión en la esfera de los derechos reales; la constitución del patrimonio familiar y, en general los títulos que la Ley ordene que sean registrados.
 
+
+									
+									
 									</p>
 
                                 </div>
@@ -264,20 +279,138 @@ Documentación digital que será almacenada de forma local y estará disponible 
 <br>
 
 
+            <!-- Portfolio section -->
+            <div id="tramites" class="portfolio ">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="main_mix_content whitebg">
+
+                            <div class="col-sm-12">
+                                <div class="head_title text-center textblack">
+                                    <h2>Tramites en Línea</h2>
+                                </div>
+                                <div class="main_mix_menu textwhite text-center">
+                                    <ul>
+										{foreach from=$lstTramite item=item key=key}      
+											<li class="filter" data-filter=".cat_{$item.categoria_tramiteCId}">{$item.nombre}</li>
+										{/foreach}
+                                    </ul>
+                                </div>
+									<hr>
+                            </div>
+							<hr>
+                            <div class="col-sm-10 col-sm-offset-1">
+                                <div class="row">
+                                    <div id="mixcontent" class="mixcontent text-center">
+										{foreach from=$lstTramite item=item key=key}      
+											<div class="col-sm-12 mix cat_{$item.categoria_tramiteCId}">
+												<div class="single_mixi_portfolio">
+													<div class="row">
+														<div class="col-sm-6 no-padding">
+															<div class="single_mixi_portfolio">
+																<img src="assets_welcome/images/{$item.rutaImagenIndex}" alt="">
+																	<span class="port_overfolio">{$item.nombre}</span>
+															</div>
+														</div>
+
+														<div class="col-sm-6 no-padding" style="    text-align: left">
+															<div class="single_mixiportfolio_text">
+																<h6>{$item.nombre} </h6>
+																
+																{foreach from=$item.tramites item=item2 key=key}   
+																	{$key+1}.-
+																	<a href="javascript:void(0)" onClick="verDetalles('{$item2.catalogo_tramite_Cid}')" title="VER DETALLES">
+																		{$item2.nombre_corto}
+																	</a>
+																	<br>
+																	<br>
+																{/foreach}
+															</div>
+														</div>
+													</div>
+												</div>
+
+											</div>
+										{/foreach}
+
+                                        </div>
+
+                                        <div class="col-sm-12 mix cat3">
+                                            
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                     
+                    </div>
+                </div>
+            </div> <!-- End off portfolio section -->
+
+
+
 <div id="draggable" class="modal fade draggable-modal" tabindex="-1" role="dialog"  aria-hidden="true">
          </div>
 
 
             <!--Contact section-->
-            <div class="section spacing-default tersus-block-contact-3" id="contact" style="background: rgba(15, 82, 76, 0.91) ; background-image: url('assets_welcome/images/logo12.jpg');  background-repeat: no-repeat">
+            <div class="section spacing-default tersus-block-contact-3" id="contact" style="background: rgba(15, 82, 76, 0.91) ; background-image: url('assets_welcome/images/contacto.jpg');  background-repeat: no-repeat">
 			<div class="bind-narrow bind-narrow-md" >
 				<div class="container">
 					<!-- section title //begin -->
 					<div  class="section-title-4 text-center"><!--
 						<span class="sub-title">Mas Información</span>-->
-						<h2><font style="color:white">CENTRO DE CAPTURA</font></h2>
+						<h2><font style="color:white">CONTACTO</font></h2>
 					</div>
-					<!-- section title //end -->			
+					<!-- section title //end -->
+
+					<div class="row">
+						<div class="col-md-6">
+
+							<div class="contact-details wow fadeInLeft">
+								<p class="address">
+									<i class="fa fa-map icon"></i>
+									<font style="color:white">Dirección:</font>
+								</p>
+								<p>
+									<i class="fa fa-phone icon"></i>
+									<font style="color:white">Telefonos: </font>
+								</p>
+								<p>
+									<i class="fa fa-envelope icon"></i>
+									<font style="color:white">Correo:</font>
+								</p>
+								<p>
+									<i class="fa fa-globe icon"></i>
+									<font style="color:white">Web</font>
+								</p>
+							</div>
+
+						</div>
+						<div class="col-md-6" style="background:white">
+							<form action="assets/plugins/contactform/contact.php" method="POST" class="form-ajax form-filled">
+								<div class="form-group">
+									<label>Nombre</label>
+									<input required name= "nombre" type="text" class="form-control" placeholder="Nombre">
+								</div>
+
+								<div class="form-group">
+									<label>Correo</label>
+									<input required name= "correo" type="email" class="form-control" placeholder="Correo">
+								</div>
+
+								<div class="form-group">
+									<label>Mensaje</label>
+									<textarea required name= "message" class="form-control" rows="5" placeholder="Tu Mensaje"></textarea>
+								</div>
+								
+								<button type="submit" class="btn btn-highlight btn-block">Enviar</button>
+							</form>
+							<br>
+							<br>
+
+						</div>
+					</div>
 
 				</div>
 			</div>
@@ -319,7 +452,7 @@ Documentación digital que será almacenada de forma local y estará disponible 
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <div class="copyright_text text-center">
-                                            <p class=" wow fadeInRight" data-wow-duration="1s">SISTEMA INTERNO ELECTORAL</p>
+                                            <p class=" wow fadeInRight" data-wow-duration="1s">Registro Público de la Propiedad y El Comercio del Estado de Chiapas</p>
                                         </div>
                                     </div>
                                 </div>
@@ -362,71 +495,3 @@ Documentación digital que será almacenada de forma local y estará disponible 
         <script src="assets_welcome/js/main.js"></script>
     </body>
 </html>
-
-
-	<!--
-	<div class="pielogin">
-	
-<br>
-<b><font face="verdana" color="#1E82CC">Soporte:</font></b>
-<br>
-<br>
-<font face="verdana" color="#1E82CC" size="2">	
-<table>
-	<tr>
-		<td>Celular:</td>
-		<td>968-100-86-46</td>
-	</tr>
-	<tr>
-		<td>Web:</td>
-		<td>www.medic-als.com.mx</td>
-	</tr>
-	<tr>
-		<td>Email:</td>
-		<td>soporte@medic-als.com.mx</td>
-	</tr>
-</table>
-</font>
-	</div>-->
-
-
-
-</body>
-
-	<div id="body" align="center">
-		<!--<div class="login" style="top:180px; position:absolute; left:550px; ">-->
-		<div class="login" style="top:80px; position:absolute; left:190px; ">
-		<br>
-		<br>
-		<br>
-				<!--<img src="./images/logo.png" width="50%" >--><br>
-				<!--<font face="verdana" size="2" color="#e94835">Expedientes Clinicios Electronicos
-			</font>-->
-		<br>
-		<br>
-		<table align="center" border=0 >
-		<tr>
-		<td></td>
-		<td><div><input class="inputlogin" style="font-size:12px; color:#427FED; " type="text" name="user" id="user" placeholder="Usuario"></div></td>
-		</tr>
-		<tr>
-		<td></td>
-		<td><input class="inputlogin" style="font-size:12px; color:#427FED" type="password" name="pass" id="pass" placeholder="Password"></td>
-		</tr>
-		<tr>
-		<td colspan="2" align="center">
-		<div id="msjloading"></div>
-		<br>
-			
-			<input class="btnlogin" type="submit" name="Login" id="Login" onClick="Login()" value="Iniciar">
-
-		</td>
-		</tr>
-		</table>
-		<img id="loader_gif" src="img/r5.gif" style=" display:none;" width=20%/>
-		</div>
-	</div>
-	<br>
-</html>
-
-
