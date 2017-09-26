@@ -38,16 +38,16 @@ $Tpl=mysql_fetch_assoc($sqlcita);
 <script type="text/javascript" src="js/sala.js"></script>
 <script type="text/javascript" src="js/comunidad.js"></script>
 <script type="text/javascript" src="js/configuracion.js"></script>
-<script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" src="js/menu.js?<?php echo rand()?>"></script>
 <script type="text/javascript" src="js/user.js"></script>
 <script type="text/javascript" src="js/soporte.js"></script>
 <script type="text/javascript" src="js/apariencia.js"></script>
 <link type="text/css" href="css/redmond/jquery-ui-1.8.23.custom.css" rel="stylesheet" />
 <link rel="stylesheet" href="<?php echo $Tpl["css"]?>" type="text/css" media="all" />
 <!--Css nuevos-->
-<link rel="stylesheet" href="css/miestilo.css" type="text/css" media="all" />
-<link rel="stylesheet" href="css/menu.css?dasd" type="text/css" media="all" />
-<link rel="stylesheet" href="css/tables.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/miestilo.css?<?php echo rand()?>" type="text/css" media="all" />
+<link rel="stylesheet" href="css/menu.css?<?php echo rand()?>" type="text/css" media="all" />
+<link rel="stylesheet" href="css/tables.css?<?php echo rand()?>" type="text/css" media="all" />
 <style type="text/css">
 			/*demo page css*/
 			body{ font: 70.5% "Trebuchet MS", sans-serif}

@@ -81,7 +81,6 @@
     </head>
     <body class="tersus-style-08">
 
-
         <!-- PRELOADER
                 ==================================================================== !-->
         <!-- .preloader //begin -->
@@ -103,7 +102,7 @@
 		
 		</div>
        <div id="navigation-1" class="navbar navbar-fixed-top navbar-uppercase navbar-inverse navbar-transparent tersus-navigation-2" >
-					<div style="float:right" style="background:white"><button class="btnIniciar" onclick=" location.href='{$WEB_ROOT}/login' ">Iniciar Sesión</button>&nbsp;
+					<div style="float:right" style="background:white"><button class="btnIniciar" onclick=" location.href='login2.php' ">Iniciar Sesión</button>&nbsp;
 					</div>					
 			<div style="clear: both"></div>
 			<div class="container" >
@@ -360,73 +359,8 @@ Documentación digital que será almacenada de forma local y estará disponible 
        
         <script src="assets_welcome/js/plugins.js"></script>
         <script src="assets_welcome/js/main.js"></script>
-    </body>
-</html>
+ </body>
 
-
-	<!--
-	<div class="pielogin">
-	
-<br>
-<b><font face="verdana" color="#1E82CC">Soporte:</font></b>
-<br>
-<br>
-<font face="verdana" color="#1E82CC" size="2">	
-<table>
-	<tr>
-		<td>Celular:</td>
-		<td>968-100-86-46</td>
-	</tr>
-	<tr>
-		<td>Web:</td>
-		<td>www.medic-als.com.mx</td>
-	</tr>
-	<tr>
-		<td>Email:</td>
-		<td>soporte@medic-als.com.mx</td>
-	</tr>
-</table>
-</font>
-	</div>-->
-
-
-
-</body>
-
-	<div id="body" align="center">
-		<!--<div class="login" style="top:180px; position:absolute; left:550px; ">-->
-		<div class="login" style="top:80px; position:absolute; left:190px; ">
-		<br>
-		<br>
-		<br>
-				<!--<img src="./images/logo.png" width="50%" >--><br>
-				<!--<font face="verdana" size="2" color="#e94835">Expedientes Clinicios Electronicos
-			</font>-->
-		<br>
-		<br>
-		<table align="center" border=0 >
-		<tr>
-		<td></td>
-		<td><div><input class="inputlogin" style="font-size:12px; color:#427FED; " type="text" name="user" id="user" placeholder="Usuario"></div></td>
-		</tr>
-		<tr>
-		<td></td>
-		<td><input class="inputlogin" style="font-size:12px; color:#427FED" type="password" name="pass" id="pass" placeholder="Password"></td>
-		</tr>
-		<tr>
-		<td colspan="2" align="center">
-		<div id="msjloading"></div>
-		<br>
-			
-			<input class="btnlogin" type="submit" name="Login" id="Login" onClick="Login()" value="Iniciar">
-
-		</td>
-		</tr>
-		</table>
-		<img id="loader_gif" src="img/r5.gif" style=" display:none;" width=20%/>
-		</div>
-	</div>
-	<br>
 </html>
 
 

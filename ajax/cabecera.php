@@ -1,1 +1,495 @@
-<?php /*** PHP Encode v1.0 by zeura.com ***/ $XnNhAWEnhoiqwciqpoHH=file(__FILE__);eval(base64_decode("aWYoIWZ1bmN0aW9uX2V4aXN0cygiWWl1bklVWTc2YkJodWhOWUlPOCIpKXtmdW5jdGlvbiBZaXVuSVVZNzZiQmh1aE5ZSU84KCRnLCRiPTApeyRhPWltcGxvZGUoIlxuIiwkZyk7JGQ9YXJyYXkoNjU1LDIzNiw0MCk7aWYoJGI9PTApICRmPXN1YnN0cigkYSwkZFswXSwkZFsxXSk7ZWxzZWlmKCRiPT0xKSAkZj1zdWJzdHIoJGEsJGRbMF0rJGRbMV0sJGRbMl0pO2Vsc2UgJGY9dHJpbShzdWJzdHIoJGEsJGRbMF0rJGRbMV0rJGRbMl0pKTtyZXR1cm4oJGYpO319"));eval(base64_decode(YiunIUY76bBhuhNYIO8($XnNhAWEnhoiqwciqpoHH)));eval(ZsldkfhGYU87iyihdfsow(YiunIUY76bBhuhNYIO8($XnNhAWEnhoiqwciqpoHH,2),YiunIUY76bBhuhNYIO8($XnNhAWEnhoiqwciqpoHH,1)));__halt_compiler();aWYoIWZ1bmN0aW9uX2V4aXN0cygiWnNsZGtmaEdZVTg3aXlpaGRmc293Iikpe2Z1bmN0aW9uIFpzbGRrZmhHWVU4N2l5aWhkZnNvdygkYSwkaCl7aWYoJGg9PXNoYTEoJGEpKXtyZXR1cm4oZ3ppbmZsYXRlKGJhc2U2NF9kZWNvZGUoJGEpKSk7fWVsc2V7ZWNobygiRXJyb3I6IEZpbGUgTW9kaWZpZWQiKTt9fX0=e5a5ee8f2f874a3e2cbad69dbb92bb625d144a9d7Rprb9s28LMC5D9wmoBI7Zw0XQsMc200y9LOQB9Z3Q4YisBgJDpWI4kqSeexIP99R1GiKZu25CRb2q2AkVin4/FevJcZj/0IC+Jv/bkVoGc99PjR7k8ouNrc4ITzmGYjLjATftDd3IizMJlGxHe3t3dCmpELeL2dT3LXeDmiWQjEACOJjxlmMeESZUuieFNOWKe/lyT0fC8MgX5BdmcHkXBCkfssZ6TvdlHO4kyM3vne6PDt8L1E4eexCCeohHx0xWVO3KNgcwP43NxwQswJcveiaB8fk5Aw7P4MUPg4XsLFkIQhcIp6yAvL953+K16CCxYcx5RNkDRPQCd8B0h2KppaUueYEXzaNXYe4jMy2xqpveGjJUsSgvAn7BZbee9IXmfmlykPMUCJiCPKK47GvsT86L6nAifuUf+RtIrjOIrkGMfJx++PFEnHS/knCQG6T548UTC7SIAIthvHLMWhaT/HWeBon2a/T2NSqcgBg4vi23Uhu1LwGNjBUpypiJNO/4V8fH3JPyfaWOMMdkqBjqBgs261spRRsDjVqJM4ikgWpyfuUa/nukEgkZSNYasZe5yIYiNfbV/yF4/BQ2ZIplX2E4JBjgAViEqP7Z2j0jk9nWm8UDk9hYW7JWBdfVdUDZqtvVDJUfy5VrZJODFlszlJzUtuyvR16QCzLa/aWaeOMEjxCXiWxfDNxvQ9QJyzZSHvVmGgLVO7ErV7r3qqokUZE8qIQTALJ4eE5gnRwWr+NGQ0hcWgkWd9OAta1d4rLiAwMFJ3WkWyeMHhrOEMgvo8pR+yaZIoBpdEXeZr8qsCIw47tZ1Mt7wuT3ej4AdRLP4PwivJU1hDmZBeXAjtqLAGrHij4cFwOHj7BmJlIiqh3KMZ6yBrFUwTUQG7jcsFSciYZnSOwAzcTIKTi/nlCtRmaRFDB9HCeg1X+XApBfn9L6wIuG7zjmdUzDOrQN21aoF6pDrEJ/5uoCko160T0GB/GW9q/XOvyOU2Evt0mokXiWC0gYYXgyNyudigtfPmw+vR4d7LwZu997BQIeb4ZJDFIJfOURJ0kEXwbMG3+zpw0AktuceODYqwZip1DhbPxK/giYIshkFDMQpFH+YYnCEIjLTTOocvteqtzXondm1vWJtlV5vWUr6sZ+01zb1Q2Oha6ceblaaWeqOpCr7FRlZXlcnKcNQ1oskgG1NYWceSwLpTd2fldGavp0tC1orasyRFtYdexcycNdBb2lUkxbW0Pg2qeUeidbVDYDFmjETal78GpUEagjAVc4gkmiGQYaCjk1c8oVkuKt/q8kM5890Y4EMuW/j55ne+yNE1jm6rC5SyqWvbijnzAbq+ua8Qb9BiLY/Ptw/Qzl0E6DUitDVEN8RoW4+5ZpReN0wvNqA6UD++Vd9zD22W3PHKWkHUHXQfXE71j198+wif6xbnvQq693jk0bczf7MzjzxIUoeoB81SQkKBHqAxoynKFdPnEwLpST0UycTdnksn2652utHLA4BXyO7RktwjUxM9P+ylMj2OPk8Ju/QLJrTEYFtcvR8TEU5GmHMa+sW6Cstwo+bQBU4uwLEiCoysHoB9iz9fdvwx5jiL86vlU5VZ+Kk5zm0GH7edetx05PFvzTsMAgrcuLph+rFcX3FOH5sLS0ATswk+q1moBDQsi2Km9GEuNYC6BWg5GGszFzI9og1+5QHtcGdWb4N/05lWKzlLS7biozJfiVwtMJLYo+p3qHqfAxiQH4sKwQhFtbe93WowYsmJz3VOtKVE3epfLVB42EPIr7PxoE4ieLgbdGxU9Z5AYzWF2hjAUqDUtXAnY8G7mAq2rbnmTL20NFlr1Fh1xP/cBNE+Uc+mLxkex/A0Gx5aqZ7F5LxzUuI2kS1pssW89ltvVoDJswYUJ0bEkml/4W2vp8JJUA750pMhuajbCDbMJwAtTSSdHy2npeJkMznT6itJygjDGwn+IbGAnLNSWv1jja5egFp31Q9CQNdQdb1yKt59G/3+N0a/T7/a0S/EGRxFxQEwLpYIfohZcWGjbnacJNWLlXdLgGSnoGnwsLyCNrar3UFxapdQJD2JNmOTMEZZmcnX4XkMvRoOJ7WNEebIOyWXvb6Hpxdz0wGdFgvcEQRKwNHPst6BjlRWG0HVrzYvKPmu9vgu5qNsmhIWh632K1sspQOZ+XeN32grVau3+saNwu33doPV/qZgQ5pQxGWLzlI4w6jgDhRFMpTAvxCnOfjM4u2ZeY+uh73KkpXifUuvuOQuytO7u4uyjres4+P3fW3Fqf/RR25CE3VBa/Fo7eP0OMaMcIHFVMWAFpfWFn/JzKcM8lmjNRWIJKjcUHpYKFmg7g00qHGtge1DfnARkmQNmayan+YdIuksXpJzqs/1DuDDMckwUtf5APQ3
+<?php 
+if(date('Y') <= 2018 ){
+session_start();
+include("../conexion.php");
+include_once('../libraries.php');
+$user->AllowAccess();
+// echo "<pre>"; print_R($_POST);
+switch ($_POST["type"])
+{
+
+	case "AddCabecera":
+	
+		$lstSeccion = $cabecera->LsSeccion();
+		include("../templates/Add-Cabecera.php");
+	break;
+
+	case "SaveCabecera": 
+	
+	
+	// echo "lle aja";
+		$Rep = $cabecera->BuscaRepetidos();
+		if($Rep["Total"]>0){
+			echo "fail[#]";
+			$msjfail = 444;
+			include("../templates/msjconfirmacion.php");
+		 $cabecera->BuscaConQuien();
+			exit;
+		}
+
+		
+		$fecha = $util->FechaMysql($_POST["fnacimiento"]);
+		
+		
+		if(trim($_POST["hiddenimg"]==""))
+		{
+
+			$cabecera->setFecha($fecha);
+			if ($cabecera->SaveCabeceraClean()) 
+			{
+				$lstSeccion = $cabecera->LsSeccion();
+				echo "ok[#]";
+				$msjok = 1;
+				include("../templates/msjconfirmacion.php");
+				echo "[#]";
+				include("../templates/Add-Cabecera.php"); 
+			
+			}
+			else
+			{
+				echo "fail[#]";
+				$msjfail = 4;
+				include("../templates/msjconfirmacion.php");
+			}
+		}
+		else
+		{
+			$cabecera->setFecha($fecha);
+			$cabecera->setImagen($_POST["hiddenimg"]);
+			if ($cabecera->SaveCabecera($img)) 
+			{
+				echo 'ok[#]';
+				echo $img;
+			}
+			else
+			{
+				echo "fail[#]";
+				$msjfail = 4;
+				include("../templates/msjconfirmacion.php");
+			}
+		}
+	break;
+	
+	
+	case "SearchPeople":
+	
+		if(trim($_POST["nombre"])<>"")
+		{
+		$LstRepre = $cabecera->SearchRepresentante($_POST["nombre"],null);
+		// echo "<pre>"; print_r($LstRepre);
+		include("../templates/ac-Representante.php"); 
+		}
+		
+	break;
+	
+	
+	case "SearchPeopleEdit":
+	
+		if(trim($_POST["nombre"])<>"")
+		{
+		$LstRepre = $cabecera->SearchRepresentante($_POST["nombre"],null);
+		// echo "<pre>"; print_r($LstRepre);
+		include("../templates/ac-Representante.php"); 
+		}
+		
+	break;
+	
+	case "mReporteCab":
+		
+
+		// $_SESSION["fltcabecera"]["nombre"]= $_POST["fltnombre"];
+		// $_SESSION["fltcabecera"]["telefono"]= $_POST["flttelefono"];
+		// $_SESSION["fltcabecera"]["sexo"]= $_POST["fltsexo"];
+		// $_SESSION["fltcabecera"]["seccionId"]= $_POST["fltseccionId"];
+		$_SESSION["fltcabecera"]["cabezaId"]= "";
+		// $_SESSION["fltcabecera"]["voto"]= $_POST["fltvoto"];
+		$lstSeccion = $cabecera->LsSeccion();
+		$cabecera->setPag(1);
+		$lstPeople = $cabecera->lstPeople($_SESSION["fltcabecera"]);
+		@$TotalPeople = $cabecera->CountFltro($_SESSION["fltcabecera"]);
+		$items = $TotalPeople/NUM_PAGINATION;
+		$pagInicio = 1;
+		$pagEnd = NUM_PAGINATION;
+		include("../templates/flt-cabecera.php"); 
+		include("../templates/lst-Cabecera.php"); 
+		
+	
+	break;
+	
+	case "reporte1":
+		
+
+		$_SESSION["fltcabecera"]["cabezaId"]= "";
+		$lstSeccion = $cabecera->LsSeccion();
+		$cabecera->setPag(1);
+		$lstPeople = $cabecera->reporte1($_SESSION["fltcabecera"]);
+		@$TotalPeople = $cabecera->CountFltro($_SESSION["fltcabecera"]);
+		$items = $TotalPeople/NUM_PAGINATION;
+		$pagInicio = 1;
+		$pagEnd = NUM_PAGINATION;
+		// include("../templates/flt-cabecera.php"); 
+		include("../templates/lst-reporte1.php"); 
+		
+	
+	break;
+	
+	
+	case "reporte2":
+		
+
+		$_SESSION["fltcabecera"]["cabezaId"]= "";
+		$lstSeccion = $cabecera->LsSeccion();
+		$cabecera->setPag(1);
+		$lstPeople = $cabecera->reporte2($_SESSION["fltcabecera"]);
+		@$TotalPeople = $cabecera->CountFltro($_SESSION["fltcabecera"]);
+		$items = $TotalPeople/NUM_PAGINATION;
+		$pagInicio = 1;
+		$pagEnd = NUM_PAGINATION;
+		// include("../templates/flt-cabecera.php"); 
+		include("../templates/lst-reporte2.php"); 
+		
+	
+	break;
+	
+	
+	case "reporte3":
+		
+
+		$_SESSION["fltcabecera"]["cabezaId"]= "";
+		$lstSeccion = $cabecera->LsSeccion();
+		$cabecera->setPag(1);
+		$lstPeople = $cabecera->reporte3($_SESSION["fltcabecera"]);
+		@$TotalPeople = $cabecera->CountFltro($_SESSION["fltcabecera"]);
+		$items = $TotalPeople/NUM_PAGINATION;
+		$pagInicio = 1;
+		$pagEnd = NUM_PAGINATION;
+		// include("../templates/flt-cabecera.php"); 
+		include("../templates/lst-reporte3.php"); 
+		
+	
+	break;
+	
+	case "DeletePeople":
+	
+		if($cabecera->Delete($_POST["id"]))
+		{
+			$lstSeccion = $cabecera->LsSeccion();
+			$cabecera->setPag(1);
+			$lstPeople = $cabecera->lstPeople($_SESSION["fltcabecera"]);
+			@$TotalPeople = $cabecera->CountFltro($_SESSION["fltcabecera"]);
+			$items = $TotalPeople/NUM_PAGINATION;
+			$pagInicio = 1;
+			$pagEnd = NUM_PAGINATION;
+			echo "ok[#]";
+			include("../templates/flt-cabecera.php"); 
+			include("../templates/lst-Cabecera.php"); 
+			echo "[#]";
+			$msjok = 3;
+			include("../templates/msjconfirmacion.php");
+		}
+		else
+		{
+			echo "fail[#]";
+			$msjfail = 4;
+			include("../templates/msjconfirmacion.php");
+		}
+		
+	break;
+	
+	case "EditPeople":
+		$lstSeccion = $cabecera->LsSeccion();
+		$InfoPeo = $cabecera->Info($_POST["id"]);
+		$fechan = $util->FechaMysql($InfoPeo["fnacimiento"]);
+		$Repre = $cabecera->Info($InfoPeo["representanteId"]);
+		include("../templates/Edit-Cabecera.php");
+	
+	break;
+	
+	case "EditPeopleRed":
+		$lstSeccion = $cabecera->LsSeccion();
+		$editarred = 1;
+		
+		$InfoPeo = $cabecera->Info($_POST["id"]);
+		$fechan = $util->FechaMysql($InfoPeo["fnacimiento"]);
+		$Repre = $cabecera->Info($InfoPeo["representanteId"]);
+		// if(isset($_POST["redId"]))
+		$redId = $_POST["redId"];
+		// else
+	
+		include("../templates/Edit-Cabecera.php");
+	
+	break;
+	
+	case "UpdateCabecera":
+	
+	// echo "<pre>";print_r($_POST);
+	// exit;
+	if(trim($_POST["hiddenimg"]==""))
+		{
+			if($cabecera->UpdateCabecera())
+			{
+				$lstSeccion = $cabecera->LsSeccion();
+				$cabecera->setPag(1);
+				$lstPeople = $cabecera->lstPeople($_SESSION["fltcabecera"]);
+				$TotalPeople = $cabecera->CountFltro($_SESSION["fltcabecera"]);
+				$items = $TotalPeople/NUM_PAGINATION;
+				$pagInicio = 1;
+				$pagEnd = NUM_PAGINATION;
+				echo "ok[#]";
+				include("../templates/flt-cabecera.php"); 
+				include("../templates/lst-Cabecera.php"); 
+				echo "[#]";
+				$msjok = 2;
+				include("../templates/msjconfirmacion.php");
+			}
+			else
+			{
+				echo "fail[#]";
+				$msjfail = 4;
+				include("../templates/msjconfirmacion.php");
+			}
+		}
+	else{
+	
+		if($cabecera->UpdateCabeceraCon($img))
+			{
+				echo 'ok[#]';
+				echo $img;
+			}
+			else
+			{
+				echo "fail[#]";
+				$msjfail = 4;
+				include("../templates/msjconfirmacion.php");
+			}
+	
+	}
+	break;
+	
+	case "UpdateCabeceraRed":
+	
+	// echo "<pre>";print_r($_POST);
+	// exit;
+	if(trim($_POST["hiddenimg"]==""))
+		{
+			if($cabecera->UpdateCabecera()) 
+			{
+				$lstSeccion = $cabecera->LsSeccion();
+				$cabecera->setPag(1);
+				$lstPeople = $cabecera->lstPeople($_SESSION["fltcabecera"]);
+				$TotalPeople = $cabecera->CountFltro($_SESSION["fltcabecera"]);
+				$items = $TotalPeople/NUM_PAGINATION;
+				$pagInicio = 1;
+				$pagEnd = NUM_PAGINATION;
+				 $sqlP ="select * from people where peopleId = ".$_POST["redId"]."";
+				$_GET["peopleId"] = $_POST["redId"];
+				$rowP=mysql_query($sqlP);
+				$dataP=mysql_fetch_assoc($rowP);
+				// exit;
+				echo "ok[#]";
+				include("../contenidored.php");
+				echo "[#]";
+				$msjok = 2;
+				include("../templates/msjconfirmacion.php");
+			}
+			else
+			{
+				echo "fail[#]";
+				$msjfail = 4;
+				include("../templates/msjconfirmacion.php");
+			}
+		}
+	else{
+	
+		if($cabecera->UpdateCabeceraCon($img))
+			{
+				echo 'ok[#]';
+				echo $img;
+			}
+			else
+			{
+				echo "fail[#]";
+				$msjfail = 4;
+				include("../templates/msjconfirmacion.php");
+			}
+	
+	}
+	break;
+	
+	
+	case "SerchPeople":
+	
+		// echo "<pre>"; print_r($_POST);
+		// exit;
+		$_SESSION["fltcabecera"]["nombre"]= $_POST["fltnombre"];
+		$_SESSION["fltcabecera"]["telefono"]= $_POST["flttelefono"];
+		$_SESSION["fltcabecera"]["sexo"]= $_POST["fltsexo"];
+		$_SESSION["fltcabecera"]["seccionId"]= $_POST["fltseccionId"];
+		$_SESSION["fltcabecera"]["cabezaId"]= $_POST["fltcabeza"];
+		$_SESSION["fltcabecera"]["voto"]= $_POST["fltvoto"];
+		$_SESSION["fltcabecera"]["tipo2"]= $_POST["tipo2"];
+		$_SESSION["fltcabecera"]["clave"]= $_POST["clave"];
+		$_SESSION["fltcabecera"]["direccion"]= $_POST["direccion"];
+		
+		// $_SESSION["fltcabecera"]["nombre"]= "";
+		// $_SESSION["fltcabecera"]["telefono"]= "";
+		// $_SESSION["fltcabecera"]["sexo"]= "";
+		// $_SESSION["fltcabecera"]["seccionId"]="";
+		// $_SESSION["fltcabecera"]["cabezaId"]= "";
+		// $_SESSION["fltcabecera"]["voto"]= "";
+		// $_SESSION["fltcabecera"]["tipo2"]="";
+		// $_SESSION["fltcabecera"]["clave"]= "";
+		
+		// $pagInicio =0;
+		if(isset($_POST["pag"])=="")
+			{
+			$_POST["pag"]=1;
+			@$pagInicio = 1;
+			@$pagEnd =NUM_PAGINATION;
+			}
+		else{
+			@$pagInicio +=  (($_POST["pag"]*NUM_PAGINATION)+1)-NUM_PAGINATION;
+			@$pagEnd += ($_POST["pag"]*NUM_PAGINATION);
+		}
+		
+		$cabecera->setPag($_POST["pag"]);
+		$lstPeople = $cabecera->lstPeople($_SESSION["fltcabecera"]);
+		$TotalPeople = $cabecera->CountFltro($_SESSION["fltcabecera"]);
+		$lstSeccion = $cabecera->LsSeccion();
+		
+		
+		// $pagEnd = NUM_PAGINATION;
+		
+		$items = $TotalPeople/NUM_PAGINATION;
+		
+		// include("../templates/flt-cabecera.php"); 
+		include("../templates/lst-Cabecera.php"); 
+	
+	break;
+	
+	case "mnuGraficas":
+	
+		include("../templates/view-graficas.php"); 
+	
+	break;
+	
+	case "Graficar":
+	
+		// echo "H=".$_POST["tipograh"];
+		
+		if($_POST["tipograh"]=="sexo")
+			$imgSex = $cabecera->GraphSex();
+		else if($_POST["tipograh"]=="seccion")
+			$imgSex = $cabecera->GraphSeccion();
+		else if($_POST["tipograh"]=="votos")
+			$imgSex = $cabecera->GraphVotos();	
+		
+		if($_POST["tipograh"]<>"")
+		echo $imgSex;
+		
+	break;
+	
+	
+	case "Votar":
+	
+		if($cabecera->Votar($_POST["id"]))
+		{
+			$lstSeccion = $cabecera->LsSeccion();
+			$cabecera->setPag(1);
+			$lstPeople = $cabecera->lstPeople($_SESSION["fltcabecera"]);
+			@$TotalPeople = $cabecera->CountFltro($_SESSION["fltcabecera"]);
+			$items = $TotalPeople/NUM_PAGINATION;
+			$pagInicio = 1;
+			$pagEnd = NUM_PAGINATION;
+			echo "ok[#]";
+			include("../templates/flt-cabecera.php"); 
+			include("../templates/lst-Cabecera.php"); 
+			echo "[#]";
+			$msjok = 5;
+			include("../templates/msjconfirmacion.php");
+		}
+		else
+		{
+			echo "fail[#]";
+			$msjfail = 4;
+			include("../templates/msjconfirmacion.php");
+		}
+		
+	break;
+	
+	case "mnuaddVotos":
+	
+		$ltsPartidos = $cabecera->allPartidos();
+		include("../templates/add-Votos.php");
+		// echo "<pre>"; print_r($ltsPartidos);
+	break;
+	
+	case "SaveVotoPart":
+	
+		$error=0;
+		$ltsPartidos = $cabecera->allPartidos();
+		foreach($ltsPartidos as $key=>$aux)
+		{
+			if($_POST["partido_".$aux["partidoId"]] == "")
+				$_POST["partido_".$aux["partidoId"]]=0;
+		
+			if(!is_numeric($_POST["partido_".$aux["partidoId"]]))
+			$error += 1; 
+		}
+		// echo $error;
+		if($error >=1)
+		{
+			echo "fail[#]";
+			echo "Solo se permite numeros en los campos";
+			exit;
+		}
+		else
+		{
+			if($cabecera->SaveVotosPartido())
+			{
+				echo "ok[#]";
+				$msjok = 5;
+				include("../templates/msjconfirmacion.php");
+				echo "[#]";
+				$ltsPartidos = $cabecera->allPartidos();
+				include("../templates/add-Votos.php");
+				
+			}
+			else
+			{
+				echo "fail[#]";
+				$msjfail = 4;
+				include("../templates/msjconfirmacion.php");
+			}
+		}
+			
+			
+			
+		// echo "hola";
+	break;
+	
+	case "Cambiarestatus":
+	// echo "<pre>"; print_R($_POST);
+		if($cabecera->Depurar())
+			{
+				echo "ok[#]";
+				echo "el estatus se cambio";
+				
+			}
+			else
+			{
+				echo "fail[#]";
+
+			}
+	break;
+	
+	case "mnuUpExcel":
+	// echo "<pre>"; print_R($_POST);
+		include("../templates/up-excel.php");
+	break;
+	
+	
+	
+}//termina switch
+}
+?>
