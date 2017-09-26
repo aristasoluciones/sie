@@ -28,6 +28,7 @@ $Tpl=mysql_fetch_assoc($sqlcita);
 		<script type="text/javascript" src="js/jquery-ui-1.8.23.custom.min.js"></script>
 <!--Lib. js defaul-->
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC85iwEXPOlJsw4CKpkGMxmnq4aLz48Eo4&sensor=true"></script>
 <script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
 <script type="text/javascript" src="js/jquery-ui-1.8.23.custom.min.js"></script>
 
@@ -42,12 +43,14 @@ $Tpl=mysql_fetch_assoc($sqlcita);
 <script type="text/javascript" src="js/user.js"></script>
 <script type="text/javascript" src="js/soporte.js"></script>
 <script type="text/javascript" src="js/apariencia.js"></script>
+<script type="text/javascript" src="js/geolocalizacion.js?<?php echo rand()?>"></script>
 <link type="text/css" href="css/redmond/jquery-ui-1.8.23.custom.css" rel="stylesheet" />
 <link rel="stylesheet" href="<?php echo $Tpl["css"]?>" type="text/css" media="all" />
 <!--Css nuevos-->
 <link rel="stylesheet" href="css/miestilo.css?<?php echo rand()?>" type="text/css" media="all" />
 <link rel="stylesheet" href="css/menu.css?<?php echo rand()?>" type="text/css" media="all" />
 <link rel="stylesheet" href="css/tables.css?<?php echo rand()?>" type="text/css" media="all" />
+<link href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Roboto+Slab:300,400" rel="stylesheet" type="text/css">
 <style type="text/css">
 			/*demo page css*/
 			body{ font: 70.5% "Trebuchet MS", sans-serif}
@@ -61,7 +64,7 @@ $Tpl=mysql_fetch_assoc($sqlcita);
 </style>
 <link href="../favicon.ico" rel="shortcut icon" type="image/x-icon" />
 </head>
-<body bgcolor="#f7f8fa">
+<body bgcolor="#f7f8fa" >
 	
 
 <div id="page" class="shell"  >
@@ -86,6 +89,10 @@ $Tpl=mysql_fetch_assoc($sqlcita);
 	
 		
 		<div id="Respuestaajax">
+			<div id="contact-map">
+			 <div id="map_canvas" style="width:1500px; height:500px"></div>
+			 <!-- END-Google Map -->
+			</div>
 		</div>
 		
 		<div id="Rsptaajaxc">

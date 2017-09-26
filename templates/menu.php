@@ -13,10 +13,12 @@
 
 <a href=''>Reportes</a>
 <ul>
-<li><a href="#" onClick="mReporteCab()">Personalizado</a></li>
+
 <li><a href="#" onClick="reporte1()" >Personas por Sección</a></li>
 <li><a href="#" onClick="reporte3()" >Edad por Sección</a></li>
 <li><a href="#" onClick="reporte2()" >Votos por Sección</a></li>
+<li><a href="#" onClick="mReporteCab()">Personalizado</a></li>
+<li><a href="#" onClick="reporte4()">GeoInformación</a></li>
 </ul>
 </li>
 <li><a href="#" onClick="mnuGraficas()">Graficas</a>

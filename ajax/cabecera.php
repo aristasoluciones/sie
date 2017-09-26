@@ -169,6 +169,15 @@ switch ($_POST["type"])
 	
 	break;
 	
+	case "reporte4":
+		
+
+		 
+		include("../templates/lst-reporte4.php"); 
+		
+	
+	break;
+	
 	case "DeletePeople":
 	
 		if($cabecera->Delete($_POST["id"]))
@@ -486,6 +495,18 @@ switch ($_POST["type"])
 	case "mnuUpExcel":
 	// echo "<pre>"; print_R($_POST);
 		include("../templates/up-excel.php");
+	break;
+	
+	
+	
+	case "datas":
+	
+		@$datasem1[]  = array ("'La Especial'", 16.7472113, -93.1187726);
+		@$datasem1[]  = array ("'2a Oriente'", 16.749802, -93.115205);
+		@$datasem1[]  = array ("'La Chiapaneca'", 16.748474, -93.115898);
+
+		header("Content-type: text/x-json");
+		print json_encode($datasem1);
 	break;
 	
 	

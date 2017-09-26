@@ -24,6 +24,8 @@ include("acceso.php");
 		<td >Femenino</td>
 		<td >Masculino</td>
 		<td >Total de Personas</td>
+		<td >Meta</td>
+		<td >Diferencia</td>
 
 	</tr>
 	<?php
@@ -35,6 +37,8 @@ include("acceso.php");
 			<td><?php echo @$aux["totalMujeres"]; ?></td>
 			<td><?php echo @$aux["totalHombres"];?></td>
 			<td><?php echo @$aux["total"]?></td>
+			<td><?php echo @$aux["meta"]?></td>
+			<td><?php echo @$aux["meta"]-$aux["total"]?></td>
 
 		</tr>
 	<?php

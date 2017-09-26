@@ -106,6 +106,25 @@ $.ajax({
 }
 
 
+function reporte4(){
+	// initialize()
+$("#Respuestaajax").show();
+$.ajax({
+			type :"POST",
+			url : "ajax/cabecera.php",
+			data: {"type":"reporte4"},
+			beforeSend: function(){
+				$("#loader_gif").show();
+			},
+			success: function (response){
+			console.log(response)
+			initialize()
+			$("#contenido").html(response);	
+					
+			},
+		});
+}
+
 function mReporteCo(){
 $("#Respuestaajax").hide();
 $.ajax({
