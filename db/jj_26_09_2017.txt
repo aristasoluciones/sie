@@ -1,0 +1,5 @@
+ALTER TABLE  `people` ADD  `x` VARCHAR( 255 ) NOT NULL AFTER  `tipo` ;
+ALTER TABLE  `people` ADD  `y` VARCHAR( 255 ) NOT NULL AFTER  `x` ;
+
+ALTER TABLE  `seccion` ADD  `x` VARCHAR( 255 ) NOT NULL AFTER  `meta` ;
+ALTER TABLE  `seccion` ADD  `y` VARCHAR( 255 ) NOT NULL AFTER  `x` ;
