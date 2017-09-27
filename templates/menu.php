@@ -1,9 +1,9 @@
 <div id='menubloque'>
 <ul id='menudesplegable'>
-<li><a href='#'><img src="images/home.png"> INICIO</a></li>
+<li><a href='#'><img src="images/casa1.png"> INICIO</a></li>
 <?php if (($_SESSION["tipouserlogin"]=="admin") or ($_SESSION["tipouserlogin"]=="auxiliar")){?> 
 <li>
-<a href=''><img src="images/user-green.png">Cabecera Municipal</a>
+<a href=''><img src="images/mas.png">Cabecera Municipal</a>
 <ul>
 <?php if (($_SESSION["tipouserlogin"]=="admin") or ($_SESSION["tipouserlogin"]=="auxiliar")){?> 
 	<li><a  href="#" onClick="m_addpaciente()">Agregar</a></li>
@@ -27,15 +27,26 @@
 </li>
 </ul>
 </li>
-<?php }}?> 
+<?php }}?>
+
+ <li>
+        <a href=''><img src="images/calendario1.png">Eventos Especiales</a>
+        <ul>
+            <li>
+                <li><a href="#" onClick="eventos()" >Ver Eventos</a></li>				
+            </li>
+
+        </ul>
+   </li>
+
 <li>
-<a href=''><img src="images/television-test.png">Mi Cuenta</a>
+<a href=''><img src="images/usuario02.png">Mi Cuenta</a>
 <ul>
 <li>
 <a onClick="CloseAccount()" href="javascript:void(0)">Salir</a>
 </li>
 
 </ul>
-</li>
+</li>  
 </ul>
 </div>

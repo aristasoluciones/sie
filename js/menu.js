@@ -68,6 +68,43 @@ $.ajax({
 
 
 
+function eventos(){
+$("#Respuestaajax").hide();
+$.ajax({
+			type :"POST",
+			url : "ajax/eventos.php",
+			data: {"type":"eventos"},
+			beforeSend: function(){
+				$("#loader_gif").show();
+			},
+			success: function (response){
+			console.log(response)
+			$("#contenido").html(response);	
+					
+			},
+		});
+		
+}
+
+
+function agregaEvento(){
+$("#Respuestaajax").hide();
+$.ajax({
+			type :"POST",
+			url : "ajax/agregaEvento.php",
+			data: {"type":"agregaEvento"},
+			beforeSend: function(){
+				$("#loader_gif").show();
+			},
+			success: function (response){
+			console.log(response)
+			$("#contenido").html(response);	
+					
+			},
+		});
+		
+}
+
 
 function reporte2(){
 $("#Respuestaajax").hide();
