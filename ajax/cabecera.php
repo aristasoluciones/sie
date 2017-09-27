@@ -178,6 +178,13 @@ switch ($_POST["type"])
 	
 	break;
 	
+	
+	case "reporte5":
+		$lstPeople = $cabecera->reporte5($_SESSION["fltcabecera"]);
+		include("../templates/lst-reporte5.php"); 
+			
+	break;
+	
 	case "DeletePeople":
 	
 		if($cabecera->Delete($_POST["id"]))

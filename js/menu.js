@@ -125,6 +125,27 @@ $.ajax({
 		});
 }
 
+
+function reporte5(){
+	// initialize()
+$("#Respuestaajax").hide();
+$.ajax({
+			type :"POST",
+			url : "ajax/cabecera.php",
+			data: {"type":"reporte5"},
+			beforeSend: function(){
+				$("#loader_gif").show();
+			},
+			success: function (response){
+			console.log(response)
+			initialize()
+			$("#contenido").html(response);	
+					
+			},
+		});
+}
+
+
 function mReporteCo(){
 $("#Respuestaajax").hide();
 $.ajax({

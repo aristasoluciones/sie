@@ -1120,6 +1120,37 @@ class Cabecera
 		return $retArray;
 	}
 	
+	
+	public function reporte5($flt)
+	{
+	
+
+		
+	 $sql ="
+		select 
+			*,
+			(select count(*) from people as p where p.representanteId  = s.peopleId) as total
+		from 
+			people as s
+		where
+		1  ";
+		$sqlcita = mysql_query($sql);
+		
+		$retArray = array();
+		while($rs=mysql_fetch_assoc($sqlcita))
+		{
+		$retArray[] = $rs;
+		}	
+		
+		foreach($retArray as $key=>$aux){
+			
+		}
+
+		
+		return $retArray;
+	}
+	
+	
 	public function buscaCoordenadas($seccionId)
 	{
 		

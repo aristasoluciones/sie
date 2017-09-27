@@ -154,16 +154,19 @@ var inputFileImage=document.getElementById("imgcrendencial");
 									$("#SaveCabecera").attr("disabled",false);
 								}
 								else if($.trim(splitResp[0]) == "fail"){	
-											alert("Ocurrio un error favor de intentar de nuevo")	
+										$("#Respuestaajax").show();
+										$("#Respuestaajax").html(splitResp[1]);
 							}
 					  }
 				});			
 			}else if($.trim(splitResp[0]) == "fail"){	
 						$("#SaveCabecera").attr("disabled",false);
-						alert("Ocurrio un error favor de intentar de nuevo")		
+						$("#Respuestaajax").show();
+						$("#Respuestaajax").html(splitResp[1]);		
 			}else{
 				$("#SaveCabecera").attr("disabled",false);
-				alert("Ocurrio un error favor de intentar de nuevo")
+				$("#Respuestaajax").show();
+				$("#Respuestaajax").html(splitResp[1]);
 			}
 			
 		}
