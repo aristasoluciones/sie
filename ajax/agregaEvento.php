@@ -71,63 +71,6 @@ switch ($_POST["type"])
 	break;
 	
 	
-	case "SaveEvento": 
-	
-	
-	// echo "lle aja";
-		$Rep = $cabecera->BuscaRepetidos();
-		if($Rep["Total"]>0){
-			echo "fail[#]";
-			$msjfail = 444;
-			include("../templates/msjconfirmacion.php");
-		 $cabecera->BuscaConQuien();
-			exit;
-		}
-
-		
-		$fecha = $util->FechaMysql($_POST["fnacimiento"]);
-		
-		
-		if(trim($_POST["hiddenimg"]==""))
-		{
-
-			$cabecera->setFecha($fecha);
-			if ($cabecera->SaveCabeceraClean()) 
-			{
-				$lstSeccion = $cabecera->LsSeccion();
-				echo "ok[#]";
-				$msjok = 1;
-				include("../templates/msjconfirmacion.php");
-				echo "[#]";
-				include("../templates/Add-Cabecera.php"); 
-			
-			}
-			else
-			{
-				echo "fail[#]";
-				$msjfail = 4;
-				include("../templates/msjconfirmacion.php");
-			}
-		}
-		else
-		{
-			$cabecera->setFecha($fecha);
-			$cabecera->setImagen($_POST["hiddenimg"]);
-			if ($cabecera->SaveCabecera($img)) 
-			{
-				echo 'ok[#]';
-				echo $img;
-			}
-			else
-			{
-				echo "fail[#]";
-				$msjfail = 4;
-				include("../templates/msjconfirmacion.php");
-			}
-		}
-	break;
-	
-	
 	case "SearchPeople":
 	
 		if(trim($_POST["nombre"])<>"")
@@ -173,7 +116,7 @@ switch ($_POST["type"])
 	
 	break;
 	
-	case "reporte1":
+	case "eventos":
 		
 
 		$_SESSION["fltcabecera"]["cabezaId"]= "";
@@ -185,7 +128,25 @@ switch ($_POST["type"])
 		$pagInicio = 1;
 		$pagEnd = NUM_PAGINATION;
 		// include("../templates/flt-cabecera.php"); 
-		include("../templates/lst-reporte1.php"); 
+		include("../templates/lst-eventos.php"); 
+		
+	
+	break;
+	
+	
+	case "agregaEvento":
+		
+
+		$_SESSION["fltcabecera"]["cabezaId"]= "";
+		$lstSeccion = $cabecera->LsSeccion();
+		$cabecera->setPag(1);
+		$lstPeople = $cabecera->reporte1($_SESSION["fltcabecera"]);
+		@$TotalPeople = $cabecera->CountFltro($_SESSION["fltcabecera"]);
+		$items = $TotalPeople/NUM_PAGINATION;
+		$pagInicio = 1;
+		$pagEnd = NUM_PAGINATION;
+		// include("../templates/flt-cabecera.php"); 
+		include("../templates/eventoconfirmacion.php"); 
 		
 	
 	break;
