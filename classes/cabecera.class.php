@@ -1133,7 +1133,7 @@ class Cabecera
 		from 
 			people as s
 		where
-		1  ";
+		1 order by total desc ";
 		$sqlcita = mysql_query($sql);
 		
 		$retArray = array();

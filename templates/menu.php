@@ -28,7 +28,7 @@
 </ul>
 </li>
 <?php }}?>
-
+<!--
  <li>
         <a href=''><img src="images/calendario1.png">Eventos Especiales</a>
         <ul>
@@ -38,7 +38,7 @@
 
         </ul>
    </li>
-
+-->
 <li>
 <a href=''><img src="images/usuario02.png">Mi Cuenta</a>
 <ul>
